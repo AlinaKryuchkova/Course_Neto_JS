@@ -9,6 +9,11 @@
 в первой — «Пользователь Х»;
 во второй — «Баланс Y».
 
+let userName = 'LeoTolstoy';
+let bonusBalance = 131;
+console.log(userName);
+console.log(bonusBalance);
+
 Задача 2
 За каждую покупку мы добавляем на баланс фиксированную сумму в 50 бонусных баллов. Баллы сгорают со временем — каждый день сгорает 3 балла.
 
@@ -22,6 +27,12 @@
 Посчитайте, какая сумма будет на балансе через 10 дней.
 Выведите баланс пользователя на экран.
 
+let bonusBalance = 131;
+let bonusScore = 50;
+let burnScore = 3;
+
+console.log(bonusBalance + (bonusScore*5 - burnScore*10));
+
 Задача 3
 Сегодня мы объявили акцию — можно потратить все бонусные баллы на покупку пастилы, килограмм которой стоит 80 рублей. Покупать можно только целые килограммы пастилы. Какое максимальное количество килограммов может купить Лев Толстой на свои бонусы?
 
@@ -33,21 +44,6 @@
 Из п. 3 рассчитайте максимальное количество килограммов, которое можно купить.
 Выведите результат на экран.
 
-*/
-/*
-let userName = 'LeoTolstoy';
-let bonusBalance = 131;
-console.log(userName);
-console.log(bonusBalance);
-*/
-/*
-let bonusBalance = 131;
-let bonusScore = 50;
-let burnScore = 3;
-
-console.log(bonusBalance + (bonusScore*5 - burnScore*10));
-*/
-/*
 let bonusBalance = 131;
 let kgPastill = 80;
 let payLeoPastill = bonusBalance % kgPastill;
